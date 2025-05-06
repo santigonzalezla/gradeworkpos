@@ -1,0 +1,25 @@
+.chart
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.charttop
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.charttop h3
+{
+    color: #202329;
+    font-size: 16px;
+    font-weight: 700;
+}

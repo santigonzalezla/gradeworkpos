@@ -1,0 +1,67 @@
+.option
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 5px;
+    border: 1px solid transparent;
+    transition: width 0.5s ease;
+}
+
+.option span,
+.collapsed span
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: width 0.5s ease-in-out;
+}
+
+.option:not(.active):hover
+{
+    border: 1px solid rgba(255, 66, 0, 0.5);
+}
+
+.active svg > path
+{
+    stroke: #FF4200;
+}
+
+.active
+{
+    box-shadow: 0 0 20px -5px #FF4200;
+}
+
+.collapsed
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 0;
+}
+
+.collapsed p
+{
+    opacity: 0;
+    display: none;
+    transition: opacity 5s ease-in-out;
+}
+
+.option p
+{
+    transition: opacity 5s ease-in-out;
+}
+
+.collapsed:not(.active):hover
+{
+    border: 1px solid rgba(255, 66, 0, 0.5);
+}

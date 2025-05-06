@@ -1,0 +1,14 @@
+.fulldashboard
+{
+    display: flex;
+    background-color: #F5F6FA;
+}
+
+.dashcontainer
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    gap: 40px;
+    padding: 30px;
+}

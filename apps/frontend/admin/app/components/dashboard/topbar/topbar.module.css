@@ -1,0 +1,20 @@
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.topright
+{
+    display: flex;
+    gap: 20px;
+}
+
+.top h1
+{
+    color: #202329;
+    font-size: 36px;
+    font-weight: 400;
+}
